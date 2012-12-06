@@ -1,0 +1,3 @@
+----------------------------- SEVEN-SEG LED DRIVER -----------------------------
+
+Driver for the four-digit seven-segment displays on many FPGA devkits.
