@@ -36,7 +36,7 @@ entity seven_seg is
 	);
 end seven_seg;
 
-architecture behavioural of seven_seg is
+architecture rtl of seven_seg is
 	signal count       : unsigned(COUNTER_WIDTH-1 downto 0) := (others => '0');
 	signal count_next  : unsigned(COUNTER_WIDTH-1 downto 0);
 	signal anodeSelect : std_logic_vector(1 downto 0);
