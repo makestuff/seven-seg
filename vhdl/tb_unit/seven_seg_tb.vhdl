@@ -22,7 +22,7 @@ use ieee.std_logic_textio.all;
 use std.textio.all;
 
 entity seven_seg_tb is
-end seven_seg_tb;
+end entity;
 
 architecture behavioural of seven_seg_tb is
 	constant COUNTER_WIDTH : integer := 4;

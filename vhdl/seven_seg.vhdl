@@ -34,7 +34,7 @@ entity seven_seg is
 		segs_out   : out std_logic_vector(7 downto 0);
 		anodes_out : out std_logic_vector(3 downto 0)
 	);
-end seven_seg;
+end entity;
 
 architecture rtl of seven_seg is
 	signal count       : unsigned(COUNTER_WIDTH-1 downto 0) := (others => '0');
@@ -98,4 +98,4 @@ begin
 
 	-- Drive segs_out
 	segs_out <= dot & segs;
-end behavioural;
+end architecture;
